@@ -3,11 +3,35 @@ entries:
   my-app:
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2019-08-07T09:47:08.226075368+07:00"
+    created: "2019-08-07T14:25:36.489583195+07:00"
     description: A Helm chart for Kubernetes
     digest: 07b7bddc0ea03f5681051ae8eec0b3acb420fde5480a764c5d444622bbb7968c
     name: my-app
     urls:
     - https://guaychou.github.io/helm-repo/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2019-08-07T09:47:08.224783078+07:00"
+  redis:
+  - apiVersion: v1
+    appVersion: 5.0.5
+    created: "2019-08-07T14:25:36.490660659+07:00"
+    description: Highly available Kubernetes implementation of Redis
+    digest: a69955917cd20766b534bf3e7602983f0c650fea1020fc1de1c28bd0c1e84d04
+    engine: gotpl
+    home: http://redis.io/
+    icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
+    keywords:
+    - redis
+    - keyvalue
+    - database
+    maintainers:
+    - email: salimsalaues@gmail.com
+      name: ssalaues
+    name: redis
+    sources:
+    - https://redis.io/download
+    - https://github.com/scality/Zenko/tree/development/1.0/kubernetes/zenko/charts/redis
+    - https://github.com/oliver006/redis_exporter
+    urls:
+    - https://guaychou.github.io/helm-repo/redis-3.6.2.tgz
+    version: 3.6.2
+generated: "2019-08-07T14:25:36.488685738+07:00"
