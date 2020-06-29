@@ -1,9 +1,20 @@
 apiVersion: v1
 entries:
+  bot-tiktok-lordchou:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-29T22:42:16.165076+07:00"
+    description: A Helm chart for Kubernetes
+    digest: 94b4889946e6338b560f4c318176c1938f92a7af8248ef1e83144bb84ef85103
+    name: bot-tiktok-lordchou
+    type: application
+    urls:
+    - bot-tiktok-lordchou-0.1.0.tgz
+    version: 0.1.0
   mosquitto:
   - apiVersion: v1
     appVersion: "3.1"
-    created: "2020-02-19T11:28:56.806558+07:00"
+    created: "2020-06-29T22:42:16.194014+07:00"
     description: A Helm chart for Kubernetes
     digest: 6aaa0e8327d9e79f4e9857089a36e66307e72d2d2da39eea1070005befd68dbe
     name: mosquitto
@@ -12,7 +23,7 @@ entries:
     version: 1.0.1
   - apiVersion: v1
     appVersion: "3.1"
-    created: "2020-02-19T11:28:56.806095+07:00"
+    created: "2020-06-29T22:42:16.189763+07:00"
     description: A Helm chart for Kubernetes
     digest: f7c76700b1286414861de453133b434ffe12429932a36664a19ec204b12fad66
     name: mosquitto
@@ -21,7 +32,7 @@ entries:
     version: 1.0.0
   - apiVersion: v1
     appVersion: "1.9"
-    created: "2020-02-19T11:28:56.805127+07:00"
+    created: "2020-06-29T22:42:16.188368+07:00"
     description: A Helm chart for Kubernetes
     digest: f82854a65757670b5ff98f134e10a350b80dda9fc4a36c487a230d605d984085
     name: mosquitto
@@ -30,7 +41,7 @@ entries:
     version: 0.1.9
   - apiVersion: v1
     appVersion: "1.8"
-    created: "2020-02-19T11:28:56.804273+07:00"
+    created: "2020-06-29T22:42:16.186818+07:00"
     description: A Helm chart for Kubernetes
     digest: 74e6416983dbaca660f6a01559bc431fbc11a7d6011985d3fcf9faba65d5620d
     name: mosquitto
@@ -39,7 +50,7 @@ entries:
     version: 0.1.8
   - apiVersion: v1
     appVersion: "1.7"
-    created: "2020-02-19T11:28:56.803197+07:00"
+    created: "2020-06-29T22:42:16.184023+07:00"
     description: A Helm chart for Kubernetes
     digest: 44497eaa744bc44aff365392c4003681d185080fcdc5cb25baabdf9e10aa36ae
     name: mosquitto
@@ -48,7 +59,7 @@ entries:
     version: 0.1.7
   - apiVersion: v1
     appVersion: "1.6"
-    created: "2020-02-19T11:28:56.802271+07:00"
+    created: "2020-06-29T22:42:16.182376+07:00"
     description: A Helm chart for Kubernetes
     digest: 5e49c70ff39396c5f749e000bec1271514bbd92475be0d41f99be263b4b93d05
     name: mosquitto
@@ -57,7 +68,7 @@ entries:
     version: 0.1.6
   - apiVersion: v1
     appVersion: "1.5"
-    created: "2020-02-19T11:28:56.800843+07:00"
+    created: "2020-06-29T22:42:16.180677+07:00"
     description: A Helm chart for Kubernetes
     digest: 25284977aa1b5cbea75da1636ce51c3466f0e8f4c69298c5a62122b39cb3a239
     name: mosquitto
@@ -66,7 +77,7 @@ entries:
     version: 0.1.5
   - apiVersion: v1
     appVersion: "1.3"
-    created: "2020-02-19T11:28:56.799955+07:00"
+    created: "2020-06-29T22:42:16.177863+07:00"
     description: A Helm chart for Kubernetes
     digest: 4cde38ee7f34e71b3dc822fa76af63ab9ca00ddd98231417d889bbf97033a7ef
     name: mosquitto
@@ -75,7 +86,7 @@ entries:
     version: 0.1.4
   - apiVersion: v1
     appVersion: "1.3"
-    created: "2020-02-19T11:28:56.799013+07:00"
+    created: "2020-06-29T22:42:16.17625+07:00"
     description: A Helm chart for Kubernetes
     digest: 9bc060097b8bfe39e784dc9289ea9513f4f1c46022d4dca60f09f7d23bce2d02
     name: mosquitto
@@ -84,7 +95,7 @@ entries:
     version: 0.1.3
   - apiVersion: v1
     appVersion: "1.2"
-    created: "2020-02-19T11:28:56.796401+07:00"
+    created: "2020-06-29T22:42:16.168162+07:00"
     description: A Helm chart for Kubernetes
     digest: ee9710a8f37ee3d44c08f647dab9a1bc1d57d680f304b07aa081a704e8999dc2
     name: mosquitto
@@ -93,7 +104,7 @@ entries:
     version: 0.1.2
   - apiVersion: v1
     appVersion: "1.0"
-    created: "2020-02-19T11:28:56.795393+07:00"
+    created: "2020-06-29T22:42:16.166853+07:00"
     description: A Helm chart for Kubernetes
     digest: b9943d6aa6e225117267b0d68dee95d8007f0850b7391ddc771806599c708fc9
     maintainers:
@@ -106,10 +117,9 @@ entries:
   redis:
   - apiVersion: v1
     appVersion: 5.0.5
-    created: "2020-02-19T11:28:56.808835+07:00"
+    created: "2020-06-29T22:42:16.196947+07:00"
     description: Highly available Kubernetes implementation of Redis
     digest: 78decfaa4085b462c4c7613db08fefc8d218feec0874e77dc2faa23fdfaeec86
-    engine: gotpl
     home: http://redis.io/
     icon: https://upload.wikimedia.org/wikipedia/en/thumb/6/6b/Redis_Logo.svg/1200px-Redis_Logo.svg.png
     keywords:
@@ -127,4 +137,4 @@ entries:
     urls:
     - redis-3.7.1.tgz
     version: 3.7.1
-generated: "2020-02-19T11:28:56.788637+07:00"
+generated: "2020-06-29T22:42:16.161085+07:00"
